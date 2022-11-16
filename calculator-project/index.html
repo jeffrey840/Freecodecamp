@@ -1,4 +1,50 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="border">
+	<input type="text" id="ans" placeholder="0">
+	<button class="ce" onclick="clr()"> C </button>
+	<p>
+		<button class="nof" onclick="dis('1')"> 1 </button>
+		<button class="nof" onclick="dis('2')"> 2 </button>
+		<button class="nof" onclick="dis('3')"> 3 </button>
+		<button class="op" onclick="dis('/')"> / </button>
+
+	</p>
+
+	<p>
+		<button class="nof" onclick="dis('4')"> 4 </button>
+		<button class="nof" onclick="dis('5')"> 5 </button>
+		<button class="nof" onclick="dis('6')"> 6 </button>
+		<button class="op" onclick="dis('-')"> - </button>
+	</p>
+	<p>
+		<button class="nof" onclick="dis('7')"> 7 </button>
+		<button class="nof" onclick="dis('8')"> 8 </button>
+		<button class="nof" onclick="dis('9')"> 9 </button>
+		<button class="op" onclick="dis('+')"> + </button>
+	</p>
+	<p>
+		<button class="nof" onclick="dis('.')"> . </button>
+		<button class="nof" onclick="dis('0')"> 0 </button>
+		<button class="eq" onclick="sol()"> = </button>
+		<button class="op" onclick="dis('*')"> * </button>
+	</p>
+</div>
+</body>
+
+<script src="calc.js"></script>
+
+</html>
+
 
 
 
